@@ -1,0 +1,26 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "web development techniques test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jin246039/webapp.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "jinbei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jin246039/webapp/issues"
+  },
+  "homepage": "https://github.com/Jin246039/webapp#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "node": "0.0.0"
+  }
+}

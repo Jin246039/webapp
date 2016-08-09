@@ -1,0 +1,34 @@
+language: ruby
+
+dist: xenial
+sudo: true
+
+before_install:
+  - rvm get head
+  - gem install bundler
+  - export CXX="g++-4.8"
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+
+rvm:
+  - ruby-head
+  - rbx-2
+  - jruby
+  - jruby-head
+
+sudo: false
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head
+    - rvm: rbx-2
+
+notifications:
+  recipients:
+    - 15605189715@163.com
